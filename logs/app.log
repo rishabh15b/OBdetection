@@ -1,0 +1,1307 @@
+[2024-01-23 18:37:37] - Data Preprocessing & Training Logs - {app.py:33} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-23 18:37:40] - Data Preprocessing & Training Logs - {helper.py:451} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-23 18:37:42] - Data Preprocessing & Training Logs - {helper.py:451} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-23 18:37:49] - Data Preprocessing & Training Logs - {app.py:43} - INFO - Subprocess 2: Training STARTED !
+[2024-01-23 18:37:55] - Training Logs - {train.py:169} - INFO - Data has already been split. Skipping the data splitting step.
+[2024-01-23 18:37:56] - Training Logs - {train.py:234} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 2, LR: 0.0001, Batch_Size: 2
+[2024-01-23 18:49:18] - Training Logs - {train.py:99} - INFO - Checkpoint saved at epoch 1.
+[2024-01-23 19:35:03] - Data Preparation Logs - {test_bbox.py:76} - INFO - Model loaded successfully
+[2024-01-23 19:35:03] - Data Preparation Logs - {test_bbox.py:292} - INFO - DJI_20230615115937_0088.JPG
+[2024-01-23 19:35:03] - Data Preparation Logs - {test_bbox.py:240} - INFO - AI Model Prediction started
+[2024-01-23 19:35:03] - Data Preparation Logs - {test_bbox.py:246} - INFO - img path (pred): ./data/blind_data\DJI_20230615115937_0088.JPG
+[2024-01-23 19:35:03] - Data Preparation Logs - {test_bbox.py:251} - INFO - Prediction Started
+[2024-01-23 19:43:23] - Data Preparation Logs - {test_bbox.py:76} - INFO - Model loaded successfully
+[2024-01-23 19:43:23] - Data Preparation Logs - {test_bbox.py:292} - INFO - DJI_20230615115937_0088.JPG
+[2024-01-23 19:43:23] - Data Preparation Logs - {test_bbox.py:240} - INFO - AI Model Prediction started
+[2024-01-23 19:43:23] - Data Preparation Logs - {test_bbox.py:246} - INFO - img path (pred): ./data/blind_data\DJI_20230615115937_0088.JPG
+[2024-01-23 19:43:23] - Data Preparation Logs - {test_bbox.py:251} - INFO - Prediction Started
+[2024-01-23 19:58:45] - Data Preparation Logs - {test_bbox.py:186} - INFO - box building done
+[2024-01-23 19:58:46] - Data Preparation Logs - {test_bbox.py:222} - INFO - Prediction exported as _pred.txt : ./prediction/Model_prediction/DJI_20230615115937_0088_pred.txt
+[2024-01-23 19:58:47] - Data Preparation Logs - {test_bbox.py:273} - INFO - Prediction exported
+[2024-01-23 20:06:52] - Data Preparation Logs - {test_bbox.py:76} - INFO - Model loaded successfully
+[2024-01-23 20:06:52] - Data Preparation Logs - {test_bbox.py:292} - INFO - DJI_20230615115937_0088.JPG
+[2024-01-23 20:06:52] - Data Preparation Logs - {test_bbox.py:240} - INFO - AI Model Prediction started
+[2024-01-23 20:06:53] - Data Preparation Logs - {test_bbox.py:246} - INFO - img path (pred): ./data/blind_data\DJI_20230615115937_0088.JPG
+[2024-01-23 20:06:53] - Data Preparation Logs - {test_bbox.py:251} - INFO - Prediction Started
+[2024-01-23 20:17:05] - Data Preparation Logs - {test_bbox.py:186} - INFO - box building done
+[2024-01-23 20:17:06] - Data Preparation Logs - {test_bbox.py:222} - INFO - Prediction exported as _pred.txt : ./prediction/Model_prediction/DJI_20230615115937_0088_pred.txt
+[2024-01-23 20:17:06] - Data Preparation Logs - {test_bbox.py:273} - INFO - Prediction exported
+[2024-01-24 03:17:19] - Data Preparation Logs - {test_bbox.py:76} - INFO - Model loaded successfully
+[2024-01-24 03:17:19] - Data Preparation Logs - {test_bbox.py:292} - INFO - DJI_20230615115937_0088.JPG
+[2024-01-24 03:17:19] - Data Preparation Logs - {test_bbox.py:240} - INFO - AI Model Prediction started
+[2024-01-24 03:17:19] - Data Preparation Logs - {test_bbox.py:246} - INFO - img path (pred): ./data/blind_data\DJI_20230615115937_0088.JPG
+[2024-01-24 03:17:19] - Data Preparation Logs - {test_bbox.py:251} - INFO - Prediction Started
+[2024-01-24 03:18:21] - Data Preparation Logs - {test_bbox.py:186} - INFO - box building done
+[2024-01-24 03:18:21] - Data Preparation Logs - {test_bbox.py:199} - INFO - res_img_reduced_path:./prediction/Model_prediction/DJI_20230615115937_0088_processed_rescaled.JPG
+[2024-01-24 03:18:22] - Data Preparation Logs - {test_bbox.py:205} - INFO - reduced image saved for img_name DJI_20230615115937_0088 : ./prediction/Model_prediction/DJI_20230615115937_0088_processed_rescaled.JPG
+[2024-01-24 03:18:22] - Data Preparation Logs - {test_bbox.py:210} - INFO - Prediction exported
+[2024-01-24 03:18:22] - Data Preparation Logs - {test_bbox.py:222} - INFO - Prediction exported as _pred.txt : ./prediction/Model_prediction/DJI_20230615115937_0088_pred.txt
+[2024-01-24 03:18:22] - Data Preparation Logs - {test_bbox.py:273} - INFO - Prediction exported
+[2024-01-24 03:26:13] - Data Preprocessing & Training Logs - {app.py:57} - INFO - Subprocess 3: Inference STARTED !
+[2024-01-24 03:26:19] - Data Preprocessing & Training Logs - {app.py:61} - ERROR - Inference script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 59, in <module>
+    subprocess.run(["python", inference_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-01-24 03:30:44] - Data Preprocessing & Training Logs - {app.py:53} - INFO - Subprocess 3: Inference STARTED !
+[2024-01-24 03:30:50] - Data Preprocessing & Training Logs - {app.py:58} - ERROR - Inference script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 56, in <module>
+    subprocess.run(["python", inference_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-01-24 03:33:07] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-24 03:33:09] - Data Preprocessing & Training Logs - {app.py:56} - INFO - Subprocess 3: Inference STARTED !
+[2024-01-24 03:33:13] - Inference Logs - {inference.py:76} - INFO - Model loaded successfully
+[2024-01-24 03:33:13] - Inference Logs - {inference.py:292} - INFO - DJI_20230615115937_0088.JPG
+[2024-01-24 03:33:13] - Inference Logs - {inference.py:240} - INFO - AI Model Prediction started
+[2024-01-24 03:33:13] - Inference Logs - {inference.py:246} - INFO - img path (pred): ./data/blind_data\DJI_20230615115937_0088.JPG
+[2024-01-24 03:33:13] - Inference Logs - {inference.py:251} - INFO - Prediction Started
+[2024-01-24 03:34:10] - Inference Logs - {inference.py:186} - INFO - box building done
+[2024-01-24 03:34:10] - Inference Logs - {inference.py:199} - INFO - res_img_reduced_path:./prediction/Model_prediction/DJI_20230615115937_0088_processed_rescaled.JPG
+[2024-01-24 03:34:11] - Inference Logs - {inference.py:205} - INFO - reduced image saved for img_name DJI_20230615115937_0088 : ./prediction/Model_prediction/DJI_20230615115937_0088_processed_rescaled.JPG
+[2024-01-24 03:34:11] - Inference Logs - {inference.py:210} - INFO - Prediction exported
+[2024-01-24 03:34:11] - Inference Logs - {inference.py:222} - INFO - Prediction exported as _pred.txt : ./prediction/Model_prediction/DJI_20230615115937_0088_pred.txt
+[2024-01-24 03:34:11] - Inference Logs - {inference.py:273} - INFO - Prediction exported
+[2024-01-24 15:45:05] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-24 15:45:07] - Data Preprocessing & Training Logs - {helper.py:569} - ERROR - No images found in G:\NEOM\stockpiles\data\raw_data\masks
+NoneType: None
+[2024-01-24 15:45:07] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-24 15:45:56] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-24 15:45:59] - Data Preprocessing & Training Logs - {helper.py:569} - ERROR - No images found in G:\NEOM\stockpiles\data\raw_data\masks
+NoneType: None
+[2024-01-24 15:45:59] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-24 15:46:25] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-24 15:46:27] - Data Preprocessing & Training Logs - {helper.py:569} - ERROR - No images found in G:\NEOM\stockpiles\data\raw_data\masks
+NoneType: None
+[2024-01-24 15:46:27] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-24 15:48:14] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-24 15:48:16] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-24 15:49:11] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-24 15:49:14] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-24 15:51:09] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-24 15:51:11] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 10:48:44] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 10:48:46] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 10:54:35] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 10:54:38] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 10:56:25] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 10:56:27] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 10:59:38] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 10:59:40] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 11:00:24] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 11:00:27] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 11:00:48] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 11:00:51] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 11:15:28] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 11:15:32] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 12:29:35] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 12:29:49] - Data Preprocessing & Training Logs - {helper.py:575} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 12:29:53] - Data Preprocessing & Training Logs - {helper.py:575} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 12:30:02] - Data Preprocessing & Training Logs - {app.py:51} - INFO - Subprocess 2: Training STARTED !
+[2024-01-25 12:30:11] - Data Preprocessing & Training Logs - {app.py:56} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 54, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-01-25 12:30:43] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 12:30:59] - Data Preprocessing & Training Logs - {helper.py:575} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 12:31:03] - Data Preprocessing & Training Logs - {helper.py:575} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 12:31:13] - Data Preprocessing & Training Logs - {app.py:51} - INFO - Subprocess 2: Training STARTED !
+[2024-01-25 12:31:20] - Data Preprocessing & Training Logs - {app.py:56} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 54, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-01-25 12:33:59] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 12:34:23] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 12:34:37] - Data Preprocessing & Training Logs - {helper.py:575} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 12:34:40] - Data Preprocessing & Training Logs - {helper.py:575} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 12:34:46] - Data Preprocessing & Training Logs - {app.py:51} - INFO - Subprocess 2: Training STARTED !
+[2024-01-25 12:34:53] - Data Preprocessing & Training Logs - {app.py:56} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 54, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-01-25 12:35:55] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 12:36:05] - Data Preprocessing & Training Logs - {helper.py:575} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 12:36:08] - Data Preprocessing & Training Logs - {helper.py:575} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 12:36:14] - Data Preprocessing & Training Logs - {app.py:51} - INFO - Subprocess 2: Training STARTED !
+[2024-01-25 12:36:20] - Data Preprocessing & Training Logs - {app.py:56} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 54, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-01-25 12:37:22] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 12:37:49] - Data Preprocessing & Training Logs - {helper.py:575} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 12:37:52] - Data Preprocessing & Training Logs - {helper.py:575} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 12:37:58] - Data Preprocessing & Training Logs - {app.py:51} - INFO - Subprocess 2: Training STARTED !
+[2024-01-25 12:38:05] - Data Preprocessing & Training Logs - {app.py:56} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 54, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-01-25 12:38:57] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 12:39:06] - Data Preprocessing & Training Logs - {helper.py:575} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 12:39:08] - Data Preprocessing & Training Logs - {helper.py:575} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 12:39:14] - Data Preprocessing & Training Logs - {app.py:51} - INFO - Subprocess 2: Training STARTED !
+[2024-01-25 12:39:20] - Data Preprocessing & Training Logs - {app.py:56} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 54, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-01-25 12:39:52] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 12:40:04] - Data Preprocessing & Training Logs - {helper.py:575} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 12:40:06] - Data Preprocessing & Training Logs - {helper.py:575} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 12:40:12] - Data Preprocessing & Training Logs - {app.py:51} - INFO - Subprocess 2: Training STARTED !
+[2024-01-25 12:40:19] - Training Logs - {train.py:238} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 2, LR: 0.0001, Batch_Size: 2, Train_Size: 64, Valid_Size: 17
+[2024-01-25 12:41:22] - Data Preprocessing & Training Logs - {app.py:56} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 54, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-01-25 12:44:22] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 12:44:28] - Data Preprocessing & Training Logs - {app.py:46} - ERROR - Data preprocessing script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 42, in <module>
+    subprocess.run(["python", data_preprocessing_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/preprocess.py']' returned non-zero exit status 1.
+[2024-01-25 12:44:28] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-01-25 12:44:34] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-01-25 12:44:48] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 12:44:56] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 12:44:59] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 12:45:05] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-01-25 12:45:11] - Training Logs - {train.py:169} - INFO - Data has already been split. Skipping the data splitting step.
+[2024-01-25 12:45:11] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-01-25 12:46:24] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 12:46:31] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 12:46:34] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 12:46:40] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-01-25 12:46:46] - Training Logs - {train.py:169} - INFO - Data has already been split. Skipping the data splitting step.
+[2024-01-25 12:46:47] - Training Logs - {train.py:235} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 2, LR: 0.0001, Batch_Size: 2, Train_Size: 12, Valid_Size: 10
+[2024-01-25 12:47:47] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-01-25 12:49:54] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 12:50:02] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 12:50:04] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 12:50:10] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-01-25 12:50:18] - Training Logs - {train.py:235} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 2, LR: 0.0001, Batch_Size: 2, Train_Size: 12, Valid_Size: 10
+[2024-01-25 12:50:40] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-01-25 12:51:58] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 12:52:05] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 12:52:08] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 12:52:14] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-01-25 12:52:20] - Training Logs - {train.py:169} - INFO - Data has already been split. Skipping the data splitting step.
+[2024-01-25 12:52:22] - Training Logs - {train.py:235} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 2, LR: 0.0001, Batch_Size: 2, Train_Size: 12, Valid_Size: 10
+[2024-01-25 12:52:45] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-01-25 12:55:09] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 12:55:17] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 12:55:20] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 12:55:25] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-01-25 12:55:33] - Training Logs - {train.py:235} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 2, LR: 0.0001, Batch_Size: 2, Train_Size: 12, Valid_Size: 10
+[2024-01-25 12:55:56] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-01-25 12:58:28] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 12:58:34] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 12:58:37] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 12:58:43] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-01-25 12:58:50] - Training Logs - {train.py:235} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 2, LR: 0.0001, Batch_Size: 2, Train_Size: 12, Valid_Size: 10
+[2024-01-25 12:59:12] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-01-25 14:04:18] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 14:04:26] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 14:04:28] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 14:04:35] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-01-25 14:04:42] - Training Logs - {train.py:169} - INFO - Data has already been split. Skipping the data splitting step.
+[2024-01-25 14:04:44] - Training Logs - {train.py:235} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 2, LR: 0.0001, Batch_Size: 2, Train_Size: 12, Valid_Size: 10
+[2024-01-25 14:05:12] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-01-25 14:06:20] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 14:06:36] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 14:06:39] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 14:06:45] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-01-25 14:06:52] - Training Logs - {train.py:169} - INFO - Data has already been split. Skipping the data splitting step.
+[2024-01-25 14:06:53] - Training Logs - {train.py:235} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 2, LR: 0.0001, Batch_Size: 2, Train_Size: 12, Valid_Size: 10
+[2024-01-25 14:07:16] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-01-25 14:13:45] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 14:14:20] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 14:14:24] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 14:14:33] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-01-25 14:14:44] - Training Logs - {train.py:169} - INFO - Data has already been split. Skipping the data splitting step.
+[2024-01-25 14:14:46] - Training Logs - {train.py:235} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 2, LR: 0.0001, Batch_Size: 2, Train_Size: 35, Valid_Size: 9
+[2024-01-25 14:15:14] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-01-25 14:21:43] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 14:21:51] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 14:21:54] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 14:22:00] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-01-25 14:22:07] - Training Logs - {train.py:169} - INFO - Data has already been split. Skipping the data splitting step.
+[2024-01-25 14:22:08] - Training Logs - {train.py:235} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 2, LR: 0.0001, Batch_Size: 2, Train_Size: 35, Valid_Size: 9
+[2024-01-25 14:22:33] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-01-25 14:34:12] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 14:34:19] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 14:34:22] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 14:34:28] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-01-25 14:34:36] - Training Logs - {train.py:169} - INFO - Data has already been split. Skipping the data splitting step.
+[2024-01-25 14:34:37] - Training Logs - {train.py:235} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 2, LR: 0.0001, Batch_Size: 2, Train_Size: 35, Valid_Size: 9
+[2024-01-25 14:35:05] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-01-25 14:35:54] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 14:36:01] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 14:36:04] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 14:36:10] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-01-25 14:36:17] - Training Logs - {train.py:169} - INFO - Data has already been split. Skipping the data splitting step.
+[2024-01-25 14:36:18] - Training Logs - {train.py:235} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 2, LR: 0.0001, Batch_Size: 1, Train_Size: 35, Valid_Size: 9
+[2024-01-25 14:36:43] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-01-25 14:37:39] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 14:38:06] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 14:38:23] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 14:38:31] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 14:38:34] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 14:38:41] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-01-25 14:38:48] - Training Logs - {train.py:169} - INFO - Data has already been split. Skipping the data splitting step.
+[2024-01-25 14:38:49] - Training Logs - {train.py:235} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 2, LR: 0.0001, Batch_Size: 2, Train_Size: 35, Valid_Size: 9
+[2024-01-25 14:39:14] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-01-25 14:41:58] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 14:42:05] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 14:42:07] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 14:42:14] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-01-25 14:42:20] - Training Logs - {train.py:169} - INFO - Data has already been split. Skipping the data splitting step.
+[2024-01-25 14:42:21] - Training Logs - {train.py:235} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 2, LR: 0.0001, Batch_Size: 2, Train_Size: 35, Valid_Size: 9
+[2024-01-25 14:42:45] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-01-25 14:44:23] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 14:44:36] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 14:44:41] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 14:44:54] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-01-25 14:45:06] - Training Logs - {train.py:169} - INFO - Data has already been split. Skipping the data splitting step.
+[2024-01-25 14:45:08] - Training Logs - {train.py:235} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 2, LR: 0.0001, Batch_Size: 1, Train_Size: 35, Valid_Size: 9
+[2024-01-25 14:45:18] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-01-25 14:46:01] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 14:46:12] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 14:46:17] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 14:46:29] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-01-25 14:46:38] - Training Logs - {train.py:169} - INFO - Data has already been split. Skipping the data splitting step.
+[2024-01-25 14:46:39] - Training Logs - {train.py:235} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 2, LR: 0.0001, Batch_Size: 1, Train_Size: 35, Valid_Size: 9
+[2024-01-25 14:47:02] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-01-25 14:59:42] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 14:59:51] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 14:59:54] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 15:00:00] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-01-25 15:00:07] - Training Logs - {train.py:169} - INFO - Data has already been split. Skipping the data splitting step.
+[2024-01-25 15:00:08] - Training Logs - {train.py:235} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 2, LR: 0.0001, Batch_Size: 1, Train_Size: 35, Valid_Size: 9
+[2024-01-25 15:00:31] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-01-25 15:45:10] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 15:45:17] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 15:45:19] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 15:45:26] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-01-25 15:45:33] - Training Logs - {train.py:169} - INFO - Data has already been split. Skipping the data splitting step.
+[2024-01-25 15:45:34] - Training Logs - {train.py:235} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 2, LR: 0.0001, Batch_Size: 1, Train_Size: 35, Valid_Size: 9
+[2024-01-25 15:45:56] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-01-25 16:01:23] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 16:01:30] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 16:01:33] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 16:01:39] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-01-25 16:01:45] - Training Logs - {train.py:169} - INFO - Data has already been split. Skipping the data splitting step.
+[2024-01-25 16:01:46] - Training Logs - {train.py:235} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 2, LR: 0.0001, Batch_Size: 1, Train_Size: 35, Valid_Size: 9
+[2024-01-25 16:02:06] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-01-25 16:03:38] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 16:03:45] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 16:03:47] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 16:03:54] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-01-25 16:04:00] - Training Logs - {train.py:169} - INFO - Data has already been split. Skipping the data splitting step.
+[2024-01-25 16:04:01] - Training Logs - {train.py:235} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 2, LR: 0.0001, Batch_Size: 1, Train_Size: 35, Valid_Size: 9
+[2024-01-25 16:04:22] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-01-25 16:04:49] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 16:04:57] - Data Preprocessing & Training Logs - {app.py:46} - ERROR - Data preprocessing script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 42, in <module>
+    subprocess.run(["python", data_preprocessing_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/preprocess.py']' returned non-zero exit status 1.
+[2024-01-25 16:04:57] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-01-25 16:05:03] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-01-25 16:05:13] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 16:05:19] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 16:05:22] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 16:05:28] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-01-25 16:05:34] - Training Logs - {train.py:169} - INFO - Data has already been split. Skipping the data splitting step.
+[2024-01-25 16:05:35] - Training Logs - {train.py:235} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 2, LR: 0.0001, Batch_Size: 1, Train_Size: 35, Valid_Size: 9
+[2024-01-25 16:06:02] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 1126, in communicate
+    self.wait()
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 1189, in wait
+    return self._wait(timeout=timeout)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 1486, in _wait
+    result = _winapi.WaitForSingleObject(self._handle,
+KeyboardInterrupt
+[2024-01-25 16:10:13] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 16:10:20] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 16:10:22] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 16:10:28] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-01-25 16:10:35] - Training Logs - {train.py:169} - INFO - Data has already been split. Skipping the data splitting step.
+[2024-01-25 16:10:36] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-01-25 16:10:53] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 16:11:01] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 16:11:03] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 16:11:10] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-01-25 16:11:17] - Training Logs - {train.py:169} - INFO - Data has already been split. Skipping the data splitting step.
+[2024-01-25 16:11:18] - Training Logs - {train.py:235} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 2, LR: 0.0001, Batch_Size: 1, Train_Size: 35, Valid_Size: 9
+[2024-01-25 16:11:44] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 1126, in communicate
+    self.wait()
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 1189, in wait
+    return self._wait(timeout=timeout)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 1486, in _wait
+    result = _winapi.WaitForSingleObject(self._handle,
+KeyboardInterrupt
+[2024-01-25 16:12:10] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 16:12:17] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 16:12:20] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 16:12:26] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-01-25 16:12:33] - Training Logs - {train.py:169} - INFO - Data has already been split. Skipping the data splitting step.
+[2024-01-25 16:12:34] - Training Logs - {train.py:235} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 2, LR: 0.0001, Batch_Size: 1, Train_Size: 35, Valid_Size: 9
+[2024-01-25 16:13:07] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 1126, in communicate
+    self.wait()
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 1189, in wait
+    return self._wait(timeout=timeout)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 1486, in _wait
+    result = _winapi.WaitForSingleObject(self._handle,
+KeyboardInterrupt
+[2024-01-25 16:15:39] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 16:15:47] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 16:15:49] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 16:15:55] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-01-25 16:16:03] - Training Logs - {train.py:235} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 2, LR: 0.0001, Batch_Size: 1, Train_Size: 36, Valid_Size: 10
+[2024-01-25 16:16:46] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 1126, in communicate
+    self.wait()
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 1189, in wait
+    return self._wait(timeout=timeout)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 1486, in _wait
+    result = _winapi.WaitForSingleObject(self._handle,
+KeyboardInterrupt
+[2024-01-25 16:17:03] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-25 16:17:12] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-25 16:17:15] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-25 16:17:21] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-01-25 16:17:27] - Training Logs - {train.py:169} - INFO - Data has already been split. Skipping the data splitting step.
+[2024-01-25 16:17:28] - Training Logs - {train.py:235} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 2, LR: 0.0001, Batch_Size: 2, Train_Size: 36, Valid_Size: 10
+[2024-01-25 16:27:56] - Training Logs - {train.py:99} - INFO - Checkpoint saved at epoch 1.
+[2024-01-29 09:59:09] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-29 09:59:18] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-29 09:59:21] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-29 09:59:28] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-01-29 09:59:38] - Training Logs - {train.py:169} - INFO - Data has already been split. Skipping the data splitting step.
+[2024-01-29 09:59:39] - Training Logs - {train.py:235} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 100, LR: 0.0001, Batch_Size: 2, Train_Size: 36, Valid_Size: 10
+[2024-01-29 10:02:47] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 1126, in communicate
+    self.wait()
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 1189, in wait
+    return self._wait(timeout=timeout)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 1486, in _wait
+    result = _winapi.WaitForSingleObject(self._handle,
+KeyboardInterrupt
+[2024-01-29 10:05:40] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-29 10:05:49] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-01-29 10:05:57] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-01-29 10:06:43] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-29 10:06:51] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-29 10:06:54] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-29 10:07:01] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-01-29 10:07:08] - Training Logs - {train.py:235} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 100, LR: 0.0001, Batch_Size: 2, Train_Size: 36, Valid_Size: 10
+[2024-01-29 10:09:28] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 1126, in communicate
+    self.wait()
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 1189, in wait
+    return self._wait(timeout=timeout)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 1486, in _wait
+    result = _winapi.WaitForSingleObject(self._handle,
+KeyboardInterrupt
+[2024-01-29 10:11:05] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-01-29 10:11:13] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-01-29 10:11:16] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-01-29 10:11:22] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-01-29 10:11:26] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 1126, in communicate
+    self.wait()
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 1189, in wait
+    return self._wait(timeout=timeout)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 1486, in _wait
+    result = _winapi.WaitForSingleObject(self._handle,
+KeyboardInterrupt
+[2024-02-19 11:01:49] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-19 11:02:04] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-02-19 11:02:07] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-02-19 11:02:13] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-02-19 11:02:18] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-02-19 11:03:34] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-19 11:03:43] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-02-19 11:03:50] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File ".\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\quality\lib\subprocess.py", line 512, in run
+    output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-02-19 11:04:35] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-19 11:04:37] - Data Preprocessing & Training Logs - {app.py:64} - ERROR - Wrong Input given
+NoneType: None
+[2024-02-19 11:05:08] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-19 11:05:15] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-02-19 11:05:17] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-02-19 11:05:22] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-02-19 11:05:26] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-02-19 11:06:22] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-19 11:06:24] - Data Preprocessing & Training Logs - {app.py:64} - ERROR - Wrong Input given
+NoneType: None
+[2024-02-19 11:06:26] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-19 11:06:33] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-02-19 11:06:37] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-02-19 11:07:53] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-19 11:08:01] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-02-19 11:08:06] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-02-19 11:13:32] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-19 11:13:36] - Data Preprocessing & Training Logs - {app.py:46} - ERROR - Data preprocessing script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 42, in <module>
+    subprocess.run(["python", data_preprocessing_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/preprocess.py']' returned non-zero exit status 1.
+[2024-02-19 11:13:36] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-02-19 11:13:40] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-02-19 11:14:37] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-19 11:14:44] - Data Preprocessing & Training Logs - {app.py:46} - ERROR - Data preprocessing script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 42, in <module>
+    subprocess.run(["python", data_preprocessing_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/preprocess.py']' returned non-zero exit status 1.
+[2024-02-19 11:14:44] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-02-19 11:14:48] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-02-19 11:16:50] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-19 11:16:58] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-02-19 11:17:04] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-02-19 11:18:54] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-19 11:19:03] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-02-19 11:19:08] - Training Logs - {train.py:169} - INFO - Data has already been split. Skipping the data splitting step.
+[2024-02-19 11:19:09] - Training Logs - {train.py:235} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 2, LR: 0.0001, Batch_Size: 2, Train_Size: 35, Valid_Size: 9
+[2024-02-19 11:20:58] - Training Logs - {train.py:99} - INFO - Checkpoint saved at epoch 1.
+[2024-02-19 11:28:30] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-19 11:28:33] - Data Preprocessing & Training Logs - {app.py:56} - INFO - Subprocess 3: Inference STARTED !
+[2024-02-19 11:28:38] - Data Preprocessing & Training Logs - {app.py:61} - ERROR - Inference script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 59, in <module>
+    subprocess.run(["python", inference_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/inference.py']' returned non-zero exit status 1.
+[2024-02-19 11:29:56] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-19 11:30:00] - Data Preprocessing & Training Logs - {app.py:56} - INFO - Subprocess 3: Inference STARTED !
+[2024-02-19 11:30:05] - Inference Logs - {inference.py:76} - INFO - Model loaded successfully
+[2024-02-19 11:30:05] - Inference Logs - {inference.py:292} - INFO - DJI_20230615115937_0088.JPG
+[2024-02-19 11:30:05] - Inference Logs - {inference.py:240} - INFO - AI Model Prediction started
+[2024-02-19 11:30:05] - Inference Logs - {inference.py:246} - INFO - img path (pred): ./data/blind_data\DJI_20230615115937_0088.JPG
+[2024-02-19 11:30:05] - Inference Logs - {inference.py:251} - INFO - Prediction Started
+[2024-02-19 11:31:01] - Inference Logs - {inference.py:186} - INFO - box building done
+[2024-02-19 11:31:01] - Inference Logs - {inference.py:199} - INFO - res_img_reduced_path:./prediction/Model_prediction/DJI_20230615115937_0088_processed_rescaled.JPG
+[2024-02-19 11:31:01] - Inference Logs - {inference.py:205} - INFO - reduced image saved for img_name DJI_20230615115937_0088 : ./prediction/Model_prediction/DJI_20230615115937_0088_processed_rescaled.JPG
+[2024-02-19 11:31:01] - Inference Logs - {inference.py:210} - INFO - Prediction exported
+[2024-02-19 11:31:02] - Data Preprocessing & Training Logs - {app.py:61} - ERROR - Inference script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 59, in <module>
+    subprocess.run(["python", inference_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/inference.py']' returned non-zero exit status 1.
+[2024-02-19 11:43:03] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-19 11:43:08] - Data Preprocessing & Training Logs - {app.py:56} - INFO - Subprocess 3: Inference STARTED !
+[2024-02-19 11:43:12] - Inference Logs - {inference.py:76} - INFO - Model loaded successfully
+[2024-02-19 11:43:12] - Inference Logs - {inference.py:292} - INFO - DJI_20230615115937_0088.JPG
+[2024-02-19 11:43:12] - Inference Logs - {inference.py:240} - INFO - AI Model Prediction started
+[2024-02-19 11:43:13] - Inference Logs - {inference.py:246} - INFO - img path (pred): ./data/blind_data\DJI_20230615115937_0088.JPG
+[2024-02-19 11:43:13] - Inference Logs - {inference.py:251} - INFO - Prediction Started
+[2024-02-19 11:44:10] - Inference Logs - {inference.py:186} - INFO - box building done
+[2024-02-19 11:44:10] - Inference Logs - {inference.py:199} - INFO - res_img_reduced_path:./prediction/Model_prediction/DJI_20230615115937_0088_processed_rescaled.JPG
+[2024-02-19 11:44:11] - Inference Logs - {inference.py:205} - INFO - reduced image saved for img_name DJI_20230615115937_0088 : ./prediction/Model_prediction/DJI_20230615115937_0088_processed_rescaled.JPG
+[2024-02-19 11:44:11] - Inference Logs - {inference.py:210} - INFO - Prediction exported
+[2024-02-19 11:44:11] - Inference Logs - {inference.py:222} - INFO - Prediction exported as _pred.txt : ./prediction/Model_prediction/DJI_20230615115937_0088_pred.txt
+[2024-02-19 11:44:11] - Inference Logs - {inference.py:273} - INFO - Prediction exported
+[2024-02-21 10:48:25] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 10:48:36] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-02-21 10:48:38] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-02-21 10:48:43] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-02-21 10:48:49] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-02-21 10:49:34] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 10:49:46] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-02-21 10:49:54] - Training Logs - {train.py:172} - INFO - Data has already been split. Skipping the data splitting step.
+[2024-02-21 10:49:55] - Training Logs - {train.py:238} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 100, LR: 0.0001, Batch_Size: 2, Train_Size: 35, Valid_Size: 9
+[2024-02-21 10:49:59] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 1126, in communicate
+    self.wait()
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 1189, in wait
+    return self._wait(timeout=timeout)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 1486, in _wait
+    result = _winapi.WaitForSingleObject(self._handle,
+KeyboardInterrupt
+[2024-02-21 10:54:22] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 10:54:30] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-02-21 10:54:32] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-02-21 10:54:38] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-02-21 10:54:44] - Training Logs - {train.py:173} - INFO - Data has already been split. Skipping the data splitting step.
+[2024-02-21 10:54:45] - Training Logs - {train.py:239} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 100, LR: 0.0001, Batch_Size: 2, Train_Size: 35, Valid_Size: 9
+[2024-02-21 10:58:50] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 10:58:58] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-02-21 10:59:00] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-02-21 10:59:05] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-02-21 10:59:12] - Training Logs - {train.py:173} - INFO - Data has already been split. Skipping the data splitting step.
+[2024-02-21 10:59:13] - Training Logs - {train.py:239} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 100, LR: 0.0001, Batch_Size: 2, Train_Size: 35, Valid_Size: 9
+[2024-02-21 10:59:14] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-02-21 11:02:37] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 11:02:45] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-02-21 11:02:47] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-02-21 11:02:50] - Data Preprocessing & Training Logs - {app.py:46} - ERROR - Data preprocessing script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 42, in <module>
+    subprocess.run(["python", data_preprocessing_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 1126, in communicate
+    self.wait()
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 1189, in wait
+    return self._wait(timeout=timeout)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 1486, in _wait
+    result = _winapi.WaitForSingleObject(self._handle,
+KeyboardInterrupt
+[2024-02-21 11:02:50] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-02-21 11:02:56] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 1126, in communicate
+    self.wait()
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 1189, in wait
+    return self._wait(timeout=timeout)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 1486, in _wait
+    result = _winapi.WaitForSingleObject(self._handle,
+KeyboardInterrupt
+[2024-02-21 11:02:59] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 11:03:10] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-02-21 11:03:13] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-02-21 11:03:18] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-02-21 11:03:26] - Training Logs - {train.py:173} - INFO - Data has already been split. Skipping the data splitting step.
+[2024-02-21 11:03:27] - Training Logs - {train.py:239} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 1, LR: 0.0001, Batch_Size: 2, Train_Size: 35, Valid_Size: 9
+[2024-02-21 11:04:30] - Training Logs - {train.py:100} - INFO - Checkpoint saved at epoch 0.
+[2024-02-21 11:06:47] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 11:06:57] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-02-21 11:06:59] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-02-21 11:07:05] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-02-21 11:07:12] - Training Logs - {train.py:173} - INFO - Data has already been split. Skipping the data splitting step.
+[2024-02-21 11:07:13] - Training Logs - {train.py:239} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 1, LR: 0.0001, Batch_Size: 2, Train_Size: 35, Valid_Size: 9
+[2024-02-21 11:08:17] - Training Logs - {train.py:100} - INFO - Checkpoint saved at epoch 0.
+[2024-02-21 11:19:42] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 11:19:50] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-02-21 11:19:52] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-02-21 11:19:57] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-02-21 11:20:03] - Training Logs - {train.py:173} - INFO - Data has already been split. Skipping the data splitting step.
+[2024-02-21 11:20:03] - Training Logs - {train.py:239} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 1, LR: 0.0001, Batch_Size: 2, Train_Size: 35, Valid_Size: 9
+[2024-02-21 11:20:47] - Data Preprocessing & Training Logs - {app.py:53} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 51, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-02-21 12:01:07] - Data Preprocessing & Training Logs - {app.py:35} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 12:01:14] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-02-21 12:01:15] - Data Preprocessing & Training Logs - {helper.py:573} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-02-21 12:01:20] - Data Preprocessing & Training Logs - {app.py:48} - INFO - Subprocess 2: Training STARTED !
+[2024-02-21 12:01:26] - Training Logs - {train.py:173} - INFO - Data has already been split. Skipping the data splitting step.
+[2024-02-21 12:01:27] - Training Logs - {train.py:239} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 1, LR: 0.0001, Batch_Size: 2, Train_Size: 35, Valid_Size: 9
+[2024-02-21 12:02:21] - Training Logs - {train.py:100} - INFO - Checkpoint saved at epoch 0.
+[2024-02-21 15:15:10] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 15:15:18] - Data Preprocessing & Training Logs - {app.py:49} - ERROR - Data preprocessing script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 45, in <module>
+    subprocess.run(["python", data_preprocessing_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/preprocess.py']' returned non-zero exit status 1.
+[2024-02-21 15:15:18] - Data Preprocessing & Training Logs - {app.py:51} - INFO - Subprocess 2: Training STARTED !
+[2024-02-21 15:15:24] - Data Preprocessing & Training Logs - {app.py:56} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 54, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-02-21 15:17:11] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 15:17:22] - Data Preprocessing & Training Logs - {app.py:49} - ERROR - Data preprocessing script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 45, in <module>
+    subprocess.run(["python", data_preprocessing_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/preprocess.py']' returned non-zero exit status 1.
+[2024-02-21 15:17:22] - Data Preprocessing & Training Logs - {app.py:51} - INFO - Subprocess 2: Training STARTED !
+[2024-02-21 15:17:28] - Data Preprocessing & Training Logs - {app.py:56} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 54, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-02-21 15:17:50] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 15:17:57] - Data Preprocessing & Training Logs - {helper.py:576} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-02-21 15:17:59] - Data Preprocessing & Training Logs - {helper.py:576} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-02-21 15:18:04] - Data Preprocessing & Training Logs - {app.py:51} - INFO - Subprocess 2: Training STARTED !
+[2024-02-21 15:18:10] - Training Logs - {train.py:173} - INFO - Data has already been split. Skipping the data splitting step.
+[2024-02-21 15:18:11] - Training Logs - {train.py:239} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 1, LR: 0.0001, Batch_Size: 2, Train_Size: 35, Valid_Size: 9
+[2024-02-21 15:19:03] - Training Logs - {train.py:100} - INFO - Checkpoint saved at epoch 0.
+[2024-02-21 15:19:06] - Data Preprocessing & Training Logs - {app.py:56} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 54, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-02-21 15:20:03] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 15:20:10] - Data Preprocessing & Training Logs - {helper.py:576} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-02-21 15:20:12] - Data Preprocessing & Training Logs - {helper.py:576} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-02-21 15:20:18] - Data Preprocessing & Training Logs - {app.py:51} - INFO - Subprocess 2: Training STARTED !
+[2024-02-21 15:20:24] - Training Logs - {train.py:173} - INFO - Data has already been split. Skipping the data splitting step.
+[2024-02-21 15:20:25] - Training Logs - {train.py:239} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 1, LR: 0.0001, Batch_Size: 2, Train_Size: 35, Valid_Size: 9
+[2024-02-21 15:21:16] - Training Logs - {train.py:100} - INFO - Checkpoint saved at epoch 0.
+[2024-02-21 15:25:17] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 15:25:19] - Data Preprocessing & Training Logs - {app.py:59} - INFO - Subprocess 3: Inference STARTED !
+[2024-02-21 15:25:26] - Data Preprocessing & Training Logs - {app.py:64} - ERROR - Inference script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 62, in <module>
+    subprocess.run(["python", inference_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/inference.py']' returned non-zero exit status 1.
+[2024-02-21 15:25:49] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 15:25:51] - Data Preprocessing & Training Logs - {app.py:59} - INFO - Subprocess 3: Inference STARTED !
+[2024-02-21 15:25:57] - Data Preprocessing & Training Logs - {app.py:64} - ERROR - Inference script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 62, in <module>
+    subprocess.run(["python", inference_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/inference.py']' returned non-zero exit status 1.
+[2024-02-21 15:26:15] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 15:26:17] - Data Preprocessing & Training Logs - {app.py:59} - INFO - Subprocess 3: Inference STARTED !
+[2024-02-21 15:26:23] - Data Preprocessing & Training Logs - {app.py:64} - ERROR - Inference script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 62, in <module>
+    subprocess.run(["python", inference_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/inference.py']' returned non-zero exit status 1.
+[2024-02-21 15:27:29] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 15:27:31] - Data Preprocessing & Training Logs - {app.py:59} - INFO - Subprocess 3: Inference STARTED !
+[2024-02-21 15:27:37] - Data Preprocessing & Training Logs - {app.py:64} - ERROR - Inference script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 62, in <module>
+    subprocess.run(["python", inference_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/inference.py']' returned non-zero exit status 1.
+[2024-02-21 15:28:17] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 15:28:19] - Data Preprocessing & Training Logs - {app.py:59} - INFO - Subprocess 3: Inference STARTED !
+[2024-02-21 15:28:25] - Data Preprocessing & Training Logs - {app.py:64} - ERROR - Inference script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 62, in <module>
+    subprocess.run(["python", inference_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/inference.py']' returned non-zero exit status 1.
+[2024-02-21 15:32:04] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 15:32:06] - Data Preprocessing & Training Logs - {app.py:59} - INFO - Subprocess 3: Inference STARTED !
+[2024-02-21 15:32:12] - Data Preprocessing & Training Logs - {app.py:64} - ERROR - Inference script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 62, in <module>
+    subprocess.run(["python", inference_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/inference.py']' returned non-zero exit status 1.
+[2024-02-21 15:33:02] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 15:33:04] - Data Preprocessing & Training Logs - {app.py:59} - INFO - Subprocess 3: Inference STARTED !
+[2024-02-21 15:33:04] - Data Preprocessing & Training Logs - {app.py:64} - ERROR - Inference script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 62, in <module>
+    subprocess.run(["python", inference_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/inference.py']' returned non-zero exit status 1.
+[2024-02-21 15:33:09] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 15:33:10] - Data Preprocessing & Training Logs - {app.py:59} - INFO - Subprocess 3: Inference STARTED !
+[2024-02-21 15:33:10] - Data Preprocessing & Training Logs - {app.py:64} - ERROR - Inference script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 62, in <module>
+    subprocess.run(["python", inference_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/inference.py']' returned non-zero exit status 1.
+[2024-02-21 15:33:20] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 15:33:21] - Data Preprocessing & Training Logs - {app.py:59} - INFO - Subprocess 3: Inference STARTED !
+[2024-02-21 15:33:27] - Data Preprocessing & Training Logs - {app.py:64} - ERROR - Inference script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 62, in <module>
+    subprocess.run(["python", inference_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/inference.py']' returned non-zero exit status 1.
+[2024-02-21 15:33:42] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 15:33:44] - Data Preprocessing & Training Logs - {app.py:59} - INFO - Subprocess 3: Inference STARTED !
+[2024-02-21 15:33:51] - Data Preprocessing & Training Logs - {app.py:64} - ERROR - Inference script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 62, in <module>
+    subprocess.run(["python", inference_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/inference.py']' returned non-zero exit status 1.
+[2024-02-21 15:34:22] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 15:34:23] - Data Preprocessing & Training Logs - {app.py:59} - INFO - Subprocess 3: Inference STARTED !
+[2024-02-21 15:34:30] - Data Preprocessing & Training Logs - {app.py:64} - ERROR - Inference script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 62, in <module>
+    subprocess.run(["python", inference_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/inference.py']' returned non-zero exit status 1.
+[2024-02-21 15:35:54] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 15:35:55] - Data Preprocessing & Training Logs - {app.py:59} - INFO - Subprocess 3: Inference STARTED !
+[2024-02-21 15:36:01] - Data Preprocessing & Training Logs - {app.py:64} - ERROR - Inference script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 62, in <module>
+    subprocess.run(["python", inference_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/inference.py']' returned non-zero exit status 1.
+[2024-02-21 15:36:43] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 15:36:44] - Data Preprocessing & Training Logs - {app.py:59} - INFO - Subprocess 3: Inference STARTED !
+[2024-02-21 15:36:51] - Data Preprocessing & Training Logs - {app.py:64} - ERROR - Inference script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 62, in <module>
+    subprocess.run(["python", inference_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/inference.py']' returned non-zero exit status 1.
+[2024-02-21 15:37:03] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 15:37:05] - Data Preprocessing & Training Logs - {app.py:59} - INFO - Subprocess 3: Inference STARTED !
+[2024-02-21 15:37:11] - Data Preprocessing & Training Logs - {app.py:64} - ERROR - Inference script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 62, in <module>
+    subprocess.run(["python", inference_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/inference.py']' returned non-zero exit status 1.
+[2024-02-21 15:38:37] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 15:38:39] - Data Preprocessing & Training Logs - {app.py:59} - INFO - Subprocess 3: Inference STARTED !
+[2024-02-21 15:38:45] - Inference Logs - {inference.py:77} - INFO - Model loaded successfully
+[2024-02-21 15:38:45] - Inference Logs - {inference.py:296} - INFO - DJI_20230615115937_0088.JPG
+[2024-02-21 15:38:45] - Inference Logs - {inference.py:244} - INFO - AI Model Prediction started
+[2024-02-21 15:38:45] - Inference Logs - {inference.py:250} - INFO - img path (pred): ./data/blind_data\DJI_20230615115937_0088.JPG
+[2024-02-21 15:38:45] - Inference Logs - {inference.py:255} - INFO - Prediction Started
+[2024-02-21 15:39:13] - Data Preprocessing & Training Logs - {app.py:64} - ERROR - Inference script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 62, in <module>
+    subprocess.run(["python", inference_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 1126, in communicate
+    self.wait()
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 1189, in wait
+    return self._wait(timeout=timeout)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 1486, in _wait
+    result = _winapi.WaitForSingleObject(self._handle,
+KeyboardInterrupt
+[2024-02-21 15:41:57] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 15:41:59] - Data Preprocessing & Training Logs - {app.py:59} - INFO - Subprocess 3: Inference STARTED !
+[2024-02-21 15:42:05] - Inference Logs - {inference.py:76} - INFO - Model loaded successfully
+[2024-02-21 15:42:05] - Inference Logs - {inference.py:293} - INFO - DJI_20230615115937_0088.JPG
+[2024-02-21 15:42:05] - Inference Logs - {inference.py:241} - INFO - AI Model Prediction started
+[2024-02-21 15:42:06] - Inference Logs - {inference.py:247} - INFO - img path (pred): ./data/blind_data\DJI_20230615115937_0088.JPG
+[2024-02-21 15:42:06] - Inference Logs - {inference.py:252} - INFO - Prediction Started
+[2024-02-21 15:42:48] - Inference Logs - {inference.py:186} - INFO - box building done
+[2024-02-21 15:42:48] - Inference Logs - {inference.py:232} - ERROR - Prediction is Empty
+[2024-02-21 15:42:48] - Inference Logs - {inference.py:274} - INFO - Prediction exported
+[2024-02-21 15:44:56] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 15:44:58] - Data Preprocessing & Training Logs - {app.py:59} - INFO - Subprocess 3: Inference STARTED !
+[2024-02-21 15:45:05] - Inference Logs - {inference.py:75} - INFO - Model loaded successfully
+[2024-02-21 15:45:05] - Inference Logs - {inference.py:292} - INFO - DJI_20230615115937_0088.JPG
+[2024-02-21 15:45:05] - Inference Logs - {inference.py:240} - INFO - AI Model Prediction started
+[2024-02-21 15:45:05] - Inference Logs - {inference.py:246} - INFO - img path (pred): ./data/blind_data\DJI_20230615115937_0088.JPG
+[2024-02-21 15:45:05] - Inference Logs - {inference.py:251} - INFO - Prediction Started
+[2024-02-21 15:46:09] - Data Preprocessing & Training Logs - {app.py:64} - ERROR - Inference script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 62, in <module>
+    subprocess.run(["python", inference_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/inference.py']' returned non-zero exit status 1.
+[2024-02-21 15:48:02] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 15:48:04] - Data Preprocessing & Training Logs - {app.py:59} - INFO - Subprocess 3: Inference STARTED !
+[2024-02-21 15:48:10] - Inference Logs - {inference.py:75} - INFO - Model loaded successfully
+[2024-02-21 15:48:10] - Inference Logs - {inference.py:292} - INFO - DJI_20230615115937_0088.JPG
+[2024-02-21 15:48:10] - Inference Logs - {inference.py:240} - INFO - AI Model Prediction started
+[2024-02-21 15:48:11] - Inference Logs - {inference.py:246} - INFO - img path (pred): ./data/blind_data\DJI_20230615115937_0088.JPG
+[2024-02-21 15:48:11] - Inference Logs - {inference.py:251} - INFO - Prediction Started
+[2024-02-21 15:49:11] - Data Preprocessing & Training Logs - {app.py:64} - ERROR - Inference script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 62, in <module>
+    subprocess.run(["python", inference_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/inference.py']' returned non-zero exit status 1.
+[2024-02-21 15:49:22] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 15:49:25] - Data Preprocessing & Training Logs - {app.py:59} - INFO - Subprocess 3: Inference STARTED !
+[2024-02-21 15:49:32] - Inference Logs - {inference.py:75} - INFO - Model loaded successfully
+[2024-02-21 15:49:32] - Inference Logs - {inference.py:292} - INFO - DJI_20230615115937_0088.JPG
+[2024-02-21 15:49:32] - Inference Logs - {inference.py:240} - INFO - AI Model Prediction started
+[2024-02-21 15:49:32] - Inference Logs - {inference.py:246} - INFO - img path (pred): ./data/blind_data\DJI_20230615115937_0088.JPG
+[2024-02-21 15:49:32] - Inference Logs - {inference.py:251} - INFO - Prediction Started
+[2024-02-21 15:50:47] - Inference Logs - {inference.py:185} - INFO - box building done
+[2024-02-21 15:50:47] - Inference Logs - {inference.py:199} - INFO - res_img_reduced_path:./experiments/exp1//Model_prediction/DJI_20230615115937_0088_processed_rescaled.JPG
+[2024-02-21 15:50:47] - Inference Logs - {inference.py:205} - INFO - reduced image saved for img_name DJI_20230615115937_0088 : ./experiments/exp1//Model_prediction/DJI_20230615115937_0088_processed_rescaled.JPG
+[2024-02-21 15:50:47] - Inference Logs - {inference.py:210} - INFO - Prediction exported
+[2024-02-21 15:50:48] - Data Preprocessing & Training Logs - {app.py:64} - ERROR - Inference script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 62, in <module>
+    subprocess.run(["python", inference_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/inference.py']' returned non-zero exit status 1.
+[2024-02-21 15:51:22] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 15:51:25] - Data Preprocessing & Training Logs - {app.py:59} - INFO - Subprocess 3: Inference STARTED !
+[2024-02-21 15:51:32] - Inference Logs - {inference.py:75} - INFO - Model loaded successfully
+[2024-02-21 15:51:32] - Inference Logs - {inference.py:292} - INFO - DJI_20230615115937_0088.JPG
+[2024-02-21 15:51:32] - Inference Logs - {inference.py:240} - INFO - AI Model Prediction started
+[2024-02-21 15:51:32] - Inference Logs - {inference.py:246} - INFO - img path (pred): ./data/blind_data\DJI_20230615115937_0088.JPG
+[2024-02-21 15:51:32] - Inference Logs - {inference.py:251} - INFO - Prediction Started
+[2024-02-21 15:52:42] - Inference Logs - {inference.py:185} - INFO - box building done
+[2024-02-21 15:52:42] - Inference Logs - {inference.py:199} - INFO - res_img_reduced_path:./experiments/exp1/Model_prediction/DJI_20230615115937_0088_processed_rescaled.JPG
+[2024-02-21 15:52:43] - Inference Logs - {inference.py:205} - INFO - reduced image saved for img_name DJI_20230615115937_0088 : ./experiments/exp1/Model_prediction/DJI_20230615115937_0088_processed_rescaled.JPG
+[2024-02-21 15:52:43] - Inference Logs - {inference.py:210} - INFO - Prediction exported
+[2024-02-21 15:52:43] - Data Preprocessing & Training Logs - {app.py:64} - ERROR - Inference script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 62, in <module>
+    subprocess.run(["python", inference_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/inference.py']' returned non-zero exit status 1.
+[2024-02-21 15:54:05] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 15:54:11] - Data Preprocessing & Training Logs - {app.py:59} - INFO - Subprocess 3: Inference STARTED !
+[2024-02-21 15:54:18] - Inference Logs - {inference.py:75} - INFO - Model loaded successfully
+[2024-02-21 15:54:18] - Inference Logs - {inference.py:295} - INFO - DJI_20230615115937_0088.JPG
+[2024-02-21 15:54:18] - Inference Logs - {inference.py:243} - INFO - AI Model Prediction started
+[2024-02-21 15:54:18] - Inference Logs - {inference.py:249} - INFO - img path (pred): ./data/blind_data\DJI_20230615115937_0088.JPG
+[2024-02-21 15:54:18] - Inference Logs - {inference.py:254} - INFO - Prediction Started
+[2024-02-21 15:55:32] - Inference Logs - {inference.py:185} - INFO - box building done
+[2024-02-21 15:55:33] - Inference Logs - {inference.py:202} - INFO - res_img_reduced_path:./experiments/exp1/Model_prediction/DJI_20230615115937_0088_processed_rescaled.JPG
+[2024-02-21 15:55:33] - Inference Logs - {inference.py:208} - INFO - reduced image saved for img_name DJI_20230615115937_0088 : ./experiments/exp1/Model_prediction/DJI_20230615115937_0088_processed_rescaled.JPG
+[2024-02-21 15:55:33] - Inference Logs - {inference.py:213} - INFO - Prediction exported
+[2024-02-21 15:55:33] - Inference Logs - {inference.py:225} - INFO - Prediction exported as _pred.txt : ./experiments/exp1/Model_prediction/DJI_20230615115937_0088_pred.txt
+[2024-02-21 15:55:33] - Inference Logs - {inference.py:276} - INFO - Prediction exported
+[2024-02-21 15:56:41] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 15:56:53] - Data Preprocessing & Training Logs - {helper.py:576} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-02-21 15:56:55] - Data Preprocessing & Training Logs - {helper.py:576} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-02-21 15:57:00] - Data Preprocessing & Training Logs - {app.py:51} - INFO - Subprocess 2: Training STARTED !
+[2024-02-21 15:57:08] - Training Logs - {train.py:173} - INFO - Data has already been split. Skipping the data splitting step.
+[2024-02-21 15:57:09] - Training Logs - {train.py:239} - INFO - Training Params:
+Encode_name: resnet18, Encoder_weights: imagenet, Epochs: 1, LR: 0.0001, Batch_Size: 2, Train_Size: 35, Valid_Size: 9
+[2024-02-21 15:58:10] - Training Logs - {train.py:100} - INFO - Checkpoint saved at epoch 0.
+[2024-02-21 16:00:12] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 16:00:16] - Data Preprocessing & Training Logs - {app.py:59} - INFO - Subprocess 3: Inference STARTED !
+[2024-02-21 16:00:23] - Data Preprocessing & Training Logs - {app.py:64} - ERROR - Inference script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 62, in <module>
+    subprocess.run(["python", inference_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stock\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/inference.py']' returned non-zero exit status 1.
+[2024-02-21 16:00:53] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 16:00:55] - Data Preprocessing & Training Logs - {app.py:59} - INFO - Subprocess 3: Inference STARTED !
+[2024-02-21 16:01:02] - Inference Logs - {inference.py:75} - INFO - Model loaded successfully
+[2024-02-21 16:01:02] - Inference Logs - {inference.py:295} - INFO - DJI_20230615115937_0088.JPG
+[2024-02-21 16:01:02] - Inference Logs - {inference.py:243} - INFO - AI Model Prediction started
+[2024-02-21 16:01:02] - Inference Logs - {inference.py:249} - INFO - img path (pred): ./data/blind_data\DJI_20230615115937_0088.JPG
+[2024-02-21 16:01:02] - Inference Logs - {inference.py:254} - INFO - Prediction Started
+[2024-02-21 16:02:12] - Inference Logs - {inference.py:185} - INFO - box building done
+[2024-02-21 16:02:13] - Inference Logs - {inference.py:202} - INFO - res_img_reduced_path:./experiments/exp2/Model_prediction/DJI_20230615115937_0088_processed_rescaled.JPG
+[2024-02-21 16:02:13] - Inference Logs - {inference.py:208} - INFO - reduced image saved for img_name DJI_20230615115937_0088 : ./experiments/exp2/Model_prediction/DJI_20230615115937_0088_processed_rescaled.JPG
+[2024-02-21 16:02:13] - Inference Logs - {inference.py:213} - INFO - Prediction exported
+[2024-02-21 16:02:13] - Inference Logs - {inference.py:225} - INFO - Prediction exported as _pred.txt : ./experiments/exp2/Model_prediction/DJI_20230615115937_0088_pred.txt
+[2024-02-21 16:02:13] - Inference Logs - {inference.py:276} - INFO - Prediction exported
+[2024-02-21 16:07:47] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-02-21 16:07:53] - Data Preprocessing & Training Logs - {app.py:59} - INFO - Subprocess 3: Inference STARTED !
+[2024-02-21 16:08:00] - Inference Logs - {inference.py:75} - INFO - Model loaded successfully
+[2024-02-21 16:08:00] - Inference Logs - {inference.py:295} - INFO - DJI_20230615115937_0088.JPG
+[2024-02-21 16:08:00] - Inference Logs - {inference.py:243} - INFO - AI Model Prediction started
+[2024-02-21 16:08:00] - Inference Logs - {inference.py:249} - INFO - img path (pred): ./data/blind_data\DJI_20230615115937_0088.JPG
+[2024-02-21 16:08:00] - Inference Logs - {inference.py:254} - INFO - Prediction Started
+[2024-02-21 16:09:13] - Inference Logs - {inference.py:185} - INFO - box building done
+[2024-02-21 16:09:14] - Inference Logs - {inference.py:202} - INFO - res_img_reduced_path:./experiments/exp2/Model_prediction/DJI_20230615115937_0088_processed_rescaled.JPG
+[2024-02-21 16:09:15] - Inference Logs - {inference.py:208} - INFO - reduced image saved for img_name DJI_20230615115937_0088 : ./experiments/exp2/Model_prediction/DJI_20230615115937_0088_processed_rescaled.JPG
+[2024-02-21 16:09:15] - Inference Logs - {inference.py:213} - INFO - Prediction exported
+[2024-02-21 16:09:15] - Inference Logs - {inference.py:225} - INFO - Prediction exported as _pred.txt : ./experiments/exp2/Model_prediction/DJI_20230615115937_0088_pred.txt
+[2024-02-21 16:09:15] - Inference Logs - {inference.py:276} - INFO - Prediction exported
+[2024-03-13 11:31:36] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-03-13 11:31:45] - Data Preprocessing & Training Logs - {app.py:49} - ERROR - Data preprocessing script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 45, in <module>
+    subprocess.run(["python", data_preprocessing_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/preprocess.py']' returned non-zero exit status 1.
+[2024-03-13 11:32:31] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-03-13 11:32:36] - Data Preprocessing & Training Logs - {app.py:49} - ERROR - Data preprocessing script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 45, in <module>
+    subprocess.run(["python", data_preprocessing_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/preprocess.py']' returned non-zero exit status 1.
+[2024-03-13 11:35:42] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-03-13 11:35:50] - Data Preprocessing & Training Logs - {app.py:49} - ERROR - Data preprocessing script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 45, in <module>
+    subprocess.run(["python", data_preprocessing_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/preprocess.py']' returned non-zero exit status 1.
+[2024-03-13 11:36:40] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-03-13 11:36:47] - Data Preprocessing & Training Logs - {helper.py:576} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-03-13 11:36:48] - Data Preprocessing & Training Logs - {helper.py:576} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-03-13 11:37:15] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-03-13 11:37:17] - Data Preprocessing & Training Logs - {app.py:67} - ERROR - Wrong Input given
+NoneType: None
+[2024-03-13 11:37:20] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-03-13 11:37:26] - Data Preprocessing & Training Logs - {app.py:51} - INFO - Subprocess 2: Training STARTED !
+[2024-03-13 11:37:32] - Data Preprocessing & Training Logs - {app.py:56} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 54, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-03-13 11:38:27] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-03-13 11:38:34] - Data Preprocessing & Training Logs - {app.py:51} - INFO - Subprocess 2: Training STARTED !
+[2024-03-13 11:38:40] - Data Preprocessing & Training Logs - {app.py:56} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 54, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.
+[2024-03-13 11:39:31] - Data Preprocessing & Training Logs - {app.py:38} - INFO - Subprocess 1: DATA PREPROCESSING STARTED !
+[2024-03-13 11:39:38] - Data Preprocessing & Training Logs - {helper.py:576} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_images
+[2024-03-13 11:39:39] - Data Preprocessing & Training Logs - {helper.py:576} - INFO - Slicing images in G:\NEOM\stockpiles\data\processed_data\patch_dir\patched_masks
+[2024-03-13 11:39:42] - Data Preprocessing & Training Logs - {app.py:51} - INFO - Subprocess 2: Training STARTED !
+[2024-03-13 11:39:48] - Training Logs - {train.py:173} - INFO - Data has already been split. Skipping the data splitting step.
+[2024-03-13 11:39:50] - Training Logs - {train.py:239} - INFO - Training Params:
+Encode_name: efficientnet-b7, Encoder_weights: imagenet, Epochs: 1, LR: 0.0001, Batch_Size: 2, Train_Size: 4, Valid_Size: 2
+[2024-03-13 11:39:57] - Data Preprocessing & Training Logs - {app.py:56} - ERROR - Model training script error
+Traceback (most recent call last):
+  File "G:\NEOM\stockpiles\app.py", line 54, in <module>
+    subprocess.run(["python", training_path], check=True)
+  File "C:\Users\z004hhdk\Anaconda3\envs\stockpiles\lib\subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'G:/NEOM/stockpiles/src/train.py']' returned non-zero exit status 1.

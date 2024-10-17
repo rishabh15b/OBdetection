@@ -1,0 +1,25 @@
+test:
+  device: 'cuda'
+  reduced_flag: True
+  scaling_factor: 0.5
+  patch_size: "(1024,1024,3)"
+  stride: "(1024, 1024, 3)"
+  score_thresh: 0.85
+  mask_thresh: 0.1
+  classes: {"class_name": "CLASSNAME", "id": 1, "color": [[64, 38, 255]]}  # CLASSNAME  is not used in this example, It has to be replaced with the label.
+  classname: "CLASSNAME"  # CLASSNAME  is not used in this example, It has to be replaced with the label.
+
+  text_color_list: [0,255,0]
+  text_font_size: 50
+  bbox_thickness: 5
+
+  script_path: "./src/inference.py"
+  font_path: "./fonts/Regular.ttf"
+  image_font: './fonts/Regular.ttf'
+  blind_data_dir: "./data/blind_data"
+  model_path: "./experiments"
+
+  experiment_name: "exp1"  # This is the name of the directory where all predictions will be saved in 'experiment' folder For inference only  
+
+  model_name: "Models/best_model.pth"
+  prediction_path: "Model_prediction"

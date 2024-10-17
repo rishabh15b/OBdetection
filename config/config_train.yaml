@@ -1,0 +1,35 @@
+data_preparation:
+
+  rAW_image_folder_dir: "./data/raw_data/images"
+  rAW_masks_folder_dir: "./data/raw_data/masks"
+  annotation_dir: "./data/raw_data/jsons"
+  patched_images_dir: "./data/processed_data/patch_dir/patched_images/"
+  patched_masks_dir: "./data/processed_data/patch_dir/patched_masks/"
+  processed_images_dir: "./data/Image_patch/"
+  processed_masks_dir: "./data/Mask_patch/"
+  script_path: "./src/preprocess.py"
+
+
+train:
+
+  train_dir: "./data/train"
+  train_annotations_dir: "./data/trainannot"
+  val_dir: "./data/val"
+  val_annotations_dir: "./data/valannot"
+  model_path: "./Models"
+  model_plots: "./Models/plots"
+  experiment_path: "experiments"
+
+  experiment_name: "exp1"  # This is the name of the directory where all results will be saved in 'experiment' folder
+
+  resume_tarainig: False
+  device: 'cuda'
+  epochs: 1
+  lr: 0.0001
+  batch_size: 2
+  classes: ['background','CLASSNAME'] # CLASSNAME is not used in this example, It has to be replaced with the label.
+  patience: 10
+  script_path: "./src/train.py"
+  architecture: "Unet"
+  encoder: "efficientnet-b7"
+  encoder_weights: "imagenet"
