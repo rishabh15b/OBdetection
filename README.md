@@ -33,6 +33,7 @@ Before running the codes,
 
 1. Move the images to "data/raw_data/images" and masks to "data/raw_data/masks" path.
 2. Move the blind images to this "data/blind_data" path.
+3. Do change the CLASSNAME with respective classname in both the config files.
 
 NOTE (1): The name of the images file and the names of masks file should match !!!
 
